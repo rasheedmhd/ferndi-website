@@ -8,27 +8,45 @@ body {
     background-image: url("bg.jpg");    
 }
 
+.logo {
+    width: 105px;
+    height: 100px;
+    margin-bottom: 50px;
+
+}
+
 .circular {
     border-radius: 50px; 
     background-color: black; 
     color: white;
     padding: 10px;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 img {
     width: 400px;
     height: 370px;
 }
+.material-symbols-outlined {
+    width: 400px;
+    height: 370px;
+}
 
 .cta {
-    font-size: 3.5rem;
-    font-weight: 900;
+    font-size: 4.5rem;
+    font-weight: 700;
     margin: -3PX;
     padding: -3px;
 }
 
 .data {
     background-color: gainsboro;
-    margin: 50px;
-    padding: 50px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.container {
+    margin-bottom: 70px;
 }
