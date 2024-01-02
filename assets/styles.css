@@ -12,7 +12,6 @@ body {
     width: 105px;
     height: 100px;
     margin-bottom: 50px;
-
 }
 
 .circular {
@@ -28,9 +27,9 @@ img {
     width: 400px;
     height: 370px;
 }
-.material-symbols-outlined {
-    width: 400px;
-    height: 370px;
+
+.material-icons.md-48 { 
+    font-size: 108px; 
 }
 
 .cta {
@@ -49,4 +48,53 @@ img {
 
 .container {
     margin-bottom: 70px;
+}
+
+.sub {
+    font-size: 78px;
+    margin: 10px;
+    padding: 1px;
+}
+
+
+.col p {
+    font-weight: bold;
+}
+
+
+.blue {
+    background-color: rgb(202, 228, 251);
+}
+.blue p {
+    color: rgb(0, 70, 132);
+}
+.yellow {
+    background-color: rgb(249, 244, 228);
+}
+.yellow p {
+    color: rgb(255, 196, 0);
+}
+.green  {
+    background-color: rgb(213, 251, 202);
+}
+.green p {
+    color: rgb(0, 132, 7);
+}
+.red {
+    background-color: rgb(251, 202, 202);;
+}
+.red p {
+    color: rgb(255, 0, 0);;
+}
+.pink {
+    background-color: rgb(251, 202, 248);
+}
+.pink p {
+    color: rgb(255, 0, 238);
+}
+.purple {
+    background-color: rgb(229, 202, 251);
+}
+.purple p {
+    color: rgb(140, 0, 255);
 }
