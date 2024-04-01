@@ -4,33 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./src/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="font-family: Manrope;" class="container mx-auto">
     <nav class="relative container mx-auto p-4 border-l-2 border-r-2">
         <!-- flex box -->
         <div class="flex items-center justify-between">
             <img src="assets/logo.png" width="50" height="50" alt="Ferndi logo">
-            <!-- <div class="flex justify-center md:justify-start">
-                <span class="bg-heroTeal p-2 text-white rounded-full px-6 baseline font-bold"> Ferndi </span>
-            </div>    -->
             <!-- nav items  -->
             <div class="md:flex space-x-6">
-                <a href="#requirements" class="text-textGrey hover:text-borderGrey"> Learn </a>
-                <a href="#join" class="text-textGrey hover:text-borderGrey"> Youtube </a>
+                <a href="#learn" class="text-textGrey hover:text-borderGrey"> Learn </a>
+                <a href="#youtube" class="text-textGrey hover:text-borderGrey"> Youtube </a>
             </div>
         </div>
     </nav>
 
     <div class="container-fluid text-center hero">
 
-        <h1 class="text-heroTeal text-4xl font-bold text-center sm:mt-10 sm:pt-10 md:text-7xl md:text-left">
-            Making Money is hard! We help you not lose it all.
+        <h1 class="text-heroTeal text-4xl font-bold text-center md:text-7xl md:text-center">
+            Making Money is hard!
+        </h1>
+        <h1 class="text-heroTeal text-4xl font-bold text-center md:text-7xl md:text-center">
+           We help you not lose it all.
         </h1>
 
             <h1 class="cta"> An opinionated app to </h1>
             <h1 class="cta"> manage your wealth.</h1>
-
-
 
             <div class="col">
                 <p class="circular">beta v1.0.0</p>
@@ -51,7 +52,21 @@
         
     </div>
 
-    
+    <section>
+        <div class="border border-borderGrey container mx-auto p-6 rounded-3xl m-6">
+
+            <span> <svg class="bg-iconGreen rounded-full p-2 inline-block" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg> </span>
+            <div class="container font-bold text-2xl text-start mx-auto py-4 text-ctaGrey"> A plan for local growth.</div>
+
+            <div>
+                We also believe local businesses (and government) are unable to reach
+                their maximum capacity because they are technically under-staffed.
+                As such, our hackers are required to “volunteer” a year of their
+                professional life at a local business or government agency.
+            </div>
+        </div>
+    </section>
+
     <div class="container">
 
         <div class="jumbotron text-center"> 
